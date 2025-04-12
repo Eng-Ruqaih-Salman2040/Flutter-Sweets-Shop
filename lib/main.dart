@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'Sweets_Files_roq/CodeRtoL_Roq.dart';
+
 import 'Sweets_Files_roq/main_cartSample_roq.dart';
-import 'cart_page.dart';
-import 'sweets_page.dart';
-import 'profile_page.dart';
-import 'homepage.dart';
+
 //import 'cart_items_provider.dart';
 
 void main() {

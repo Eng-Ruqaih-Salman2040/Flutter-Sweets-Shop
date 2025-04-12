@@ -25,7 +25,7 @@ class CartPage extends StatelessWidget {
 
                 return ListTile(
                   title: Text(product.name),
-                  subtitle: Text('Price: \$${product.price.toStringAsFixed(2)}'),
+                  subtitle: Text('السعر: \$${product.price.toStringAsFixed(2)}'),
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
@@ -49,11 +49,14 @@ class CartPage extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                Text('Total Quantity: ${cartProvider.totalQuantity}'),
-                Text('Total Price: \$${cartProvider.totalPrice.toStringAsFixed(2)}'),
+                //Text('Total Quantity: ${cartProvider.totalQuantity}'),
+                Text('الكمية الإجمالية: ${cartProvider.totalQuantity}'),
+                //Text('Total Price: \$${cartProvider.totalPrice.toStringAsFixed(2)}'),
+                Text('اجمالي السعر: \$${cartProvider.totalPrice.toStringAsFixed(2)}'),
                 SizedBox(height: 10),
                 ElevatedButton(
-                  child: Text('Checkout'),
+                  //child: Text('Checkout'),
+                  child: Text('الدفع'),
                   onPressed: () {
                     // Handle checkout logic
                   },

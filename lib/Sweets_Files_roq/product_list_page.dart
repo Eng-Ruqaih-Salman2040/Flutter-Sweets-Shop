@@ -75,11 +75,11 @@ class ProductListPage extends StatelessWidget {
               );
             },
             trailing: ElevatedButton(
-              child: Text('Add to Cart'),
+              child: Text('أضف الى السلة'),
               onPressed: () {
                 Provider.of<CartProvider>(context, listen: false).addProduct(product);
                 ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text('${product.name} added to cart')),
+                  SnackBar(content: Text('${product.name} تمت الاضافة الى السلة : ')),
                 );
               },
             ),

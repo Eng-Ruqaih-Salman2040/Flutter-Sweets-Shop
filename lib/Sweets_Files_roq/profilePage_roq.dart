@@ -31,7 +31,7 @@ class ProfilePage_Roq extends StatelessWidget {
             alignment: Alignment.center,
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 18.0),
-              child: Text('Ruqaih Salman'),
+              child: Text('Eng: Ruqaih Salman'),
             ),
           ),
 
@@ -40,7 +40,7 @@ class ProfilePage_Roq extends StatelessWidget {
             alignment: Alignment.center,
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 0.0),
-              child: Text('ruqaihsalman@example.com'),
+              child: Text('Email: ruqaihsalman@example.com'),
             ),
           ),
 
@@ -50,7 +50,9 @@ class ProfilePage_Roq extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0),
               child: Text(
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+                 // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                "مطوره تطبيقات الهاتف الذكي بالاضافة الى تطوير المواقع الالكترونية"
+              ),
             ),
           ),
 
@@ -58,28 +60,28 @@ class ProfilePage_Roq extends StatelessWidget {
 
           // Service
           ListTile(
-            title: const Text('Order history'),
+            title: const Text('سجل الطلبات'),
             onTap: () {
               // Go to order history page
             },
             trailing: const Icon(Icons.arrow_forward_ios),
           ),
           ListTile(
-            title: const Text('Saved addresses'),
+            title: const Text('العناوين المحفوظة'),
             onTap: () {
               // Go to saved addresses page
             },
             trailing: const Icon(Icons.arrow_forward_ios),
           ),
           ListTile(
-            title: const Text('Payment methods'),
+            title: const Text('طريقة الدفع'),
             onTap: () {
               // Go to payment methods page
             },
             trailing: const Icon(Icons.arrow_forward_ios),
           ),
           ListTile(
-            title: const Text('Settings'),
+            title: const Text('الأعدادات'),
             onTap: () {
               // Go to settings page
             },
@@ -96,7 +98,7 @@ class ProfilePage_Roq extends StatelessWidget {
                 // Edit profile button
                 Expanded(
                   child: ElevatedButton(
-                    child: const Text('Edit Profile'),
+                    child: const Text('تعديل الملف الشخصي'),
                     onPressed: () {
                       // Handle the button press here.
                     },
@@ -108,7 +110,7 @@ class ProfilePage_Roq extends StatelessWidget {
                 // Logout button
                 Expanded(
                   child: ElevatedButton(
-                    child: const Text('Logout'),
+                    child: const Text('خروج'),
                     onPressed: () => _navigateToSignIn(context: context),
                   ),
                 ),

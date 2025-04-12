@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sweets_shop_roq_2025/Sweets_Files_roq/homepageRoq.dart';
 import 'package:sweets_shop_roq_2025/Sweets_Files_roq/profilePage_roq.dart';
-import '../sweets_page.dart';
+
 import 'product_list_page.dart';
 import 'cart_provider_roq.dart';
 import 'product_list_page.dart';
@@ -101,19 +101,19 @@ class _MainScreenRoqState extends State<MainScreenRoq> {
           BottomNavigationBarItem(
             backgroundColor: Colors.black,
             icon: Icon(Icons.home),
-            label: 'Home',
+            label: 'الرئيسية',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.cake),
-            label: 'Products',
+            label: 'المنتجات',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
-            label: 'Cart',
+            label: 'السله',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: 'الملف الشخصي',
           ),
         ],
       ),
@@ -136,7 +136,7 @@ class _CartSample_MyAppState extends State<CartSample_MyApp> {
           ChangeNotifierProvider(create: (_) => CartProvider()),
         ],
         child: MaterialApp(
-          title: 'Shopping Cart',
+          title: 'سلة التسوق',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(primarySwatch: Colors.blue),
           initialRoute: '/',
