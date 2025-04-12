@@ -4,6 +4,7 @@ A Flutter Sweet Shop app is a mobile application built using Flutter, Google's o
 
 ## Screens
 <p align="center">
+  <img width="200" src="https://github.com/Eng-Ruqaih-Salman2040/Flutter-Sweets-Shop/blob/master/sweets_1.png?raw=true"/>
   <img width="200" src="https://i.pinimg.com/originals/47/19/5c/47195c365a7fa4ae8a86f1fe974d2e04.png"/>
   <img width="200" src="https://i.pinimg.com/originals/ff/ec/8a/ffec8a59e3cd8dc22db844c251406f2a.png"/>
   <img width="200" src="https://i.pinimg.com/originals/ee/c3/1e/eec31ec7a8f6d37393ee389a5499f1cf.png"/>
